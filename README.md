@@ -224,27 +224,15 @@ Table Name: Pet Type
 
 Table Name: Pet Table
 
-|Pet Id      |Pet Type    |Pet Name    |
-|------------|------------|------------|
-|1           |1           |Ellie       |
-|2           |2           |Joe         |
-|3           |1           |Ginger      |
-|4           |3           |Tiger       |
-|5           |3           |Miss Kitty  |
-|6           |4           |Toby        |
-|7           |5           |Bubble      |
-
-Table Name: Pet To Person
-
-|Pet Id      |Person Id   |
-|------------|------------|
-|1           |1           |
-|2           |2           |
-|3           |3           |
-|4           |1           |
-|5           |3           |
-|6           |1           |
-|7           |3           |
+|Pet Id      |Person Id   |Pet Type    |Pet Name    |
+|------------|------------|------------|------------|
+|1           |1           |1           |Ellie       |
+|2           |2           |2           |Joe         |
+|3           |3           |1           |Ginger      |
+|4           |1           |3           |Tiger       |
+|5           |3           |3           |Miss Kitty  |
+|6           |1           |4           |Toby        |
+|7           |3           |5           |Bubble      |
 
 ---
 
