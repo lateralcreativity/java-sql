@@ -204,35 +204,25 @@ Below are some empty tables to be used to normalize the database
 * Not all of the cells will contain data in the final solution
 * Feel free to edit these tables as necessary
 
-Table Name: Person
+Table Name: Owner
 
-|Person Id   |Person Name |Fenced Yard |City Dweller|
+|Owner Id    |Owner Name  |Fenced Yard |City Dweller|
 |------------|------------|------------|------------|
 |1           |Jane        |No          |Yes         |
 |2           |Bob         |No          |No          |
 |3           |Sam         |Yes         |No          |
 
-Table Name: Pet Type
+Table Name: Pets
 
-|Pet Type Id |Pet Type    |
-|------------|------------|
-|1           |Dog         |
-|2           |Horse       |
-|3           |Cat         |
-|4           |Turtle      |
-|5           |Fish        |
-
-Table Name: Pet Table
-
-|Pet Id      |Person Id   |Pet Type    |Pet Name    |
+|Pet Id      |Owner Id    |Pet Type    |Pet Name    |
 |------------|------------|------------|------------|
-|1           |1           |1           |Ellie       |
-|2           |2           |2           |Joe         |
-|3           |3           |1           |Ginger      |
-|4           |1           |3           |Tiger       |
-|5           |3           |3           |Miss Kitty  |
-|6           |1           |4           |Toby        |
-|7           |3           |5           |Bubble      |
+|1           |1           |Dog         |Ellie       |
+|2           |2           |Horse       |Joe         |
+|3           |3           |Dog         |Ginger      |
+|4           |1           |Cat         |Tiger       |
+|5           |3           |Cat         |Miss Kitty  |
+|6           |1           |Turtle      |Toby        |
+|7           |3           |Fish        |Bubble      |
 
 ---
 
